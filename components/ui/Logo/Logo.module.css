@@ -1,0 +1,8 @@
+.logo {
+  margin: 0;
+  font-family: var(--font-playfair);
+  font-size: 40px;
+  line-height: 1.4; /* 140% */
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}

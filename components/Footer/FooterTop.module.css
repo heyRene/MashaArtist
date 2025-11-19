@@ -1,0 +1,42 @@
+.top {
+  width: 100%;
+  max-width: 1320px;
+  padding: 64px 0;
+  margin: 0 auto;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+.heading {
+  position: relative;
+}
+.title {
+  margin: 0;
+  font-family: var(--font-playfair);
+  font-size: 40px;
+  line-height: 1.4; /* 140% */
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+  grid-column: 4 / span 3;
+}
+.decor {
+  width: 460px;
+  height: 200px;
+  background: url("/images/round-brush.svg") no-repeat center/contain;
+  display: block;
+  position: absolute;
+  top: -85px;
+  left: -24px;
+}
+.nav {
+  grid-column: 1 / span 3;
+}

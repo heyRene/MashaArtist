@@ -1,0 +1,21 @@
+@import "./styles/tokens.css";
+
+body {
+  margin: 0;
+  font-family: var(--font-inter);
+  color: var(--neutral-900);
+}
+a {
+  text-decoration: none;
+  color: var(--neutral-900);
+}
+.container {
+  max-width: 1320px;
+  /* padding: 40px 40px 100px; */
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+  flex: 1;
+  overflow: hidden;
+
+}

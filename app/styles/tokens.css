@@ -1,0 +1,18 @@
+:root {
+  --font-playfair: "PlayfairDisplay", serif;
+  --font-inter: "Inter", sans-serif;
+  --neutral-0: #ffffff; /* белый, используется как фон */
+  --neutral-900: #333333; /* основной тёмный текст */
+
+  --accent-blue-100: #74a5b6;
+  --accent-yellow-100: #dee08f;
+  --accent-pink-100: #fd9aae;
+
+  --mood-purple-100: #9287ac;
+  --mood-teal-100: #83aca8;
+  --mood-magenta-100: #db76a2;
+  --mood-blue-100: #85abbb;
+  --mood-forest-100: #749a8c;
+  --mood-coral-100: #e98b7c;
+  --mood-yellow-100: #dee08f;
+}

@@ -1,0 +1,45 @@
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link {
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+  text-decoration: none;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+}
+.link:hover {
+  color: var(--accent-pink-100);
+}
+.link[aria-current="page"] {
+  color: var(--accent-blue-100);
+  cursor: default;
+}
+
+.gallery {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.brush {
+  width: 18px;
+  height: 80px;
+  background: url("/images/brush.svg") no-repeat center/contain;
+  display: block;
+}
+
+.galleryList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

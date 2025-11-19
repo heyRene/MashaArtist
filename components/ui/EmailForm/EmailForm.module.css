@@ -1,0 +1,20 @@
+.form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.input {
+  padding: 12px 14px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  font-size: 20px;
+  
+  color: #333333;
+  outline: none;
+  grid-column: 1 / span 2;
+}
+
+.input:focus {
+  border-color: #74A5B6;
+}
+
