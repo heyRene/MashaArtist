@@ -1,0 +1,18 @@
+.link {
+  font-family: var(--font-playfair);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 145%;
+  letter-spacing: -110%;
+  color: var(--accent-blue-100);
+
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+.colorWhite {
+  color: var(--neutral-0);
+}
+
+.link:hover {
+  color: var(--accent-pink-100);
+}

@@ -1,0 +1,80 @@
+.imageCard {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.span1 {
+  grid-column-end: span 1;
+}
+.span2 {
+  grid-column-end: span 2;
+}
+.span3 {
+  grid-column-end: span 3;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.portrait {
+  aspect-ratio: 427 / 541;
+}
+
+.square {
+  aspect-ratio: 1 / 1;
+}
+.vertical {
+  aspect-ratio: 199 / 301;
+}
+.imageMedia {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+
+  padding: 24px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(50, 49, 49, 0) 20%,
+    rgba(27, 26, 26, 0.75) 100%
+  );
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+.description {
+  margin: 0 0 4px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: -0.03em;
+}
+
+.title {
+  margin-top: 12px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: -0.03em;
+}
+
+.image:hover .overlay {
+  opacity: 1;
+}
